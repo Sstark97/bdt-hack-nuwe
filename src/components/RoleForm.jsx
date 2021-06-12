@@ -8,7 +8,7 @@ import '../assets/styles/icons.css';
 import '../assets/styles/role-form.css';
 
 const RoleForm = () => (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" marginLeft="12rem">
         <Text fontSize="4xl" fontWeight="extrabold">¡Unete a la Comunidad!</Text>
         <Text fontSize="xl" fontWeight="light" width="45%" opacity={0.6}>Para empezar, dinos que cuenta te gustaría abrir</Text>
 
