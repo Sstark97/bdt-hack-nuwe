@@ -2,7 +2,6 @@
 import React from 'react';
 import {Grid, Box, Text, Image} from '@chakra-ui/react';
 import assetImage from '../assets/static/Background.png';
-import '../assets/styles/backgroundImage.css'
 
 const ImageBackground = () => (
     <Box bg="rgba(76, 175, 80);" width="65vh" position="relative">

@@ -1,17 +1,23 @@
 import React from 'react';
 import {Grid, Box, Text, Image, Flex} from '@chakra-ui/react';
+import RoleForm from '../components/RoleForm';
 
 const Home = () => (
-    <Text 
+    <Box>
+        <Text 
         textAlign="end" 
         margin="6rem" 
         fontSize="2xl" 
         textColor="gray.600">
 
             Ya tienes cuenta? 
-            <Text as= "span" textColor="rgba(76, 175, 80)">Inicia sesión</Text>
+            <Text as= "span" textColor="rgba(76, 175, 80)" marginLeft="0.3rem">Inicia sesión</Text>
 
-    </Text>
+        </Text>
+
+        <RoleForm />
+
+    </Box>
 );
 
 export default Home;
