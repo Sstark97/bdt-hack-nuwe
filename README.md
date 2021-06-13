@@ -31,3 +31,22 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 - Desarrollarlo implementando componentes funcionales
 - Para considerar corregir el proyecto se tiene que haber hecho deploy de la solución 
 ----
+
+### Tecnologías Utilizadas
+- Para mayor comodidad y mejor funcionamiento decidi utilizar WebPack, babel y eslint para configurar el proyecto.
+- Para las vistas me apoye en Chakra UI, ya que ofrece componentes presentacionales que facilitan la creación de páginas.
+- Para enrutar las distintas páginas utilice React Router
+----
+
+### Procedimiento
+- Una vez confugurado Webpack, babel y eslint lo primero que decidi hacer fue la maquetación de las vistas.
+- Cree dos carpetas, una llamada componentes y otra llamada pages. En la primera coloque aquellos componentes que 
+  me serían de utilidad para hacer los distintos formularios o componentes complemenarios. Y en la carpeta de pages coloque
+  las diferentes vistas del proyecto.
+- Después de eso lo siguiente que hice fue preparar el Layout y el Router, para ello me cree una carpeta llamada routes, donde
+  coloque el componente que se encargará de manejar las distintas rutas
+- Cuando ya tenia maquetadas todas las vistas procedi a controlar la validación del email y de los campos del formulario de la 
+  primera vista. Cree el modal que saldría emergente en caso de fallos con el email. Y un mensaje de error en caso de que haya algún
+  campo vacío.
+- Por último realice el último modal, el de confirmación de cuenta.
+----
