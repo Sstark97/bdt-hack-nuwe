@@ -1,14 +1,14 @@
 import React from 'react'
-import {Grid, Box, Text, Image, Flex} from '@chakra-ui/react';
+import { Text, Flex } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import UserIcon from './UserIcon';
 import BusinessIcon from './BusinessIcon';
-import { AiOutlineArrowRight, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 import '../assets/styles/icons.css';
 import '../assets/styles/role-form.css';
 
 const RoleForm = () => (
-    <Flex flexDirection="column" marginLeft="12rem">
+    <Flex flexDirection="column" marginLeft="12rem"  width="100%">
         <Text fontSize="4xl" fontWeight="extrabold">¡Unete a la Comunidad!</Text>
         <Text fontSize="xl" fontWeight="light" width="45%" opacity={0.6}>Para empezar, dinos que cuenta te gustaría abrir</Text>
 

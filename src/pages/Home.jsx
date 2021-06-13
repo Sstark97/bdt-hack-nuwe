@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Box, Text, Image, Flex} from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import RoleForm from '../components/RoleForm';
 
 const Home = () => (

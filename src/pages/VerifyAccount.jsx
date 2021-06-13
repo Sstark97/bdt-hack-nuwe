@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Box, Text, Image, Flex} from '@chakra-ui/react';
+import { Box, Text, Flex} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import VerifyForm from '../components/VerifyForm';
 import { MdKeyboardArrowLeft } from 'react-icons/md';

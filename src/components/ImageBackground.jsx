@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {Grid, Box, Text, Image} from '@chakra-ui/react';
+import { Box, Text, Image} from '@chakra-ui/react';
 import assetImage from '../assets/static/Background.png';
 
 const ImageBackground = () => (

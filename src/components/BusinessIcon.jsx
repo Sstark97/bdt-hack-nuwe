@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, Box, Text, Image, Flex} from '@chakra-ui/react';
+import {Flex} from '@chakra-ui/react';
 import { BsPentagon } from 'react-icons/bs';
 import {  MdCardTravel } from 'react-icons/md';
 import '../assets/styles/icons.css';

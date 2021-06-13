@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import {
     Modal,
     ModalOverlay,
@@ -7,15 +6,13 @@ import {
     ModalHeader,
     ModalFooter,
     ModalBody,
-    ModalCloseButton,
     useDisclosure,
     Button,
     Text
   } from "@chakra-ui/react";
 
 const ConfirmModal = ({open, handleCloseInParent}) => {
-    const { isOpen, onOpen, onClose } = useDisclosure();
-    console.log(open)
+    const { onClose } = useDisclosure();
 
     const handleClose = () => {
         onClose();

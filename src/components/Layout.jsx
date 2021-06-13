@@ -1,18 +1,15 @@
 import React from 'react';
-import {Grid, GridItem, Box, Text, Image} from '@chakra-ui/react';
-import ImageBackground from './ImageBackground';
+import { useMediaQuery } from '@chakra-ui/react';
+import DesktopLayout from '../components/DesktopLayout';
+import MobileLayout from '../components/MobileLayout';
 
-const Layout = ({children}) => (
-    <Grid 
-    templateRows="repeat(2, 1fr)"
-    templateColumns="repeat(5, 1fr)"
-    gap={0} 
-    height="100vh">
-        
-        <GridItem rowSpan={2} colSpan={1} > <ImageBackground /> </GridItem>
-        <GridItem colSpan={4} rowSpan={2} > {children} </GridItem>
+const Layout = ({children}) => {
+    const [isLargerThan1000] = useMediaQuery("(min-width: 1000px)")
 
-    </Grid>
-);
+    
+    return (
+        <> {isLargerThan1000 ? <DesktopLayout children={children} /> : <MobileLayout children={children}/>}</>
+    );
+};
 
 export default Layout;

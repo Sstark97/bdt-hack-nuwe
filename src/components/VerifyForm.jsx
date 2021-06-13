@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Text, Flex, FormControl, FormLabel, Input, Button} from '@chakra-ui/react';
+import {Text, Flex, Box, FormLabel, Input, Button} from '@chakra-ui/react';
 import '../assets/styles/icons.css';
 import '../assets/styles/role-form.css';
 import { GiPadlock } from 'react-icons/gi';
@@ -22,7 +22,7 @@ const VerifyForm = () => {
         <Text fontSize="4xl" fontWeight="extrabold">Verifica tu perfil</Text>
         <Text fontSize="xl" fontWeight="light" width="40%" opacity={0.6}>Para poder revisar que se trata de una cuenta real, nesecitamos la siguiente información</Text>
 
-        <FormControl width="40%" my="2em">
+        <Box width="40%" my="2em">
             <FormLabel fontWeight="semibold" textColor="gray.600">Número de tarjeta</FormLabel>
             <Input placeholder="Introduce el número de tu tarjeta" height="60px" border="3px solid"></Input>
 
@@ -37,7 +37,7 @@ const VerifyForm = () => {
 
             <ConfirmModal open={showModal} handleCloseInParent={handleCloseInParent}/>
             
-        </FormControl>
+        </Box>
 
         
     </Flex>
