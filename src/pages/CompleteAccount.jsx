@@ -5,7 +5,7 @@ import CompleteForm from '../components/CompleteForm';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
 import '../assets/styles/icons.css';
 
-const CompleteAccount = () => (
+const CompleteAccount = ({history}) => (
     <Box justifyContent="flex-end" alignItems="center" width="100%">
     <Flex justifyContent="flex-end" width="100%" marginTop="-3rem">
 
@@ -30,7 +30,7 @@ const CompleteAccount = () => (
         </Flex>
     </Flex>
 
-    <CompleteForm />
+    <CompleteForm history={history}/>
 
 </Box>
 )

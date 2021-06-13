@@ -37,7 +37,6 @@ const RegisterForm = ({history}) => {
 
     const handleCloseInParent = () => {
         setModal(false);
-        console.log("hola")
     };
 
     return(
