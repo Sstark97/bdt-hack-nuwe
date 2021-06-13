@@ -5,7 +5,7 @@ import RegisterForm from '../components/RegisterForm';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
 import '../assets/styles/icons.css';
 
-const Register = () => (
+const Register = ({history}) => (
     <Box justifyContent="flex-end" alignItems="center" width="100%">
         <Flex justifyContent="flex-end" width="100%" marginTop="-3rem">
         
@@ -30,7 +30,7 @@ const Register = () => (
             </Flex>
         </Flex>
 
-        <RegisterForm />
+        <RegisterForm history = {history}/>
 
     </Box>
 )
